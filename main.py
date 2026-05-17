@@ -20,7 +20,7 @@ app.add_middleware(
 # ==========================================
 
 # NOTA: Para despliegue, utilice la variable de entorno MONGO_URI:
-# client = MongoClient(os.environ["MONGO_URI"])
+client = MongoClient(os.environ["MONGO_URI"])
 
 # TODO: Conectarse al cluster Admonsis para desarrollo local
 client = MongoClient("mongodb://ISIS2304J29202610:Jagje4mlKhht@157.253.236.88:8087")
